@@ -15,7 +15,6 @@
   <!-- Tailwind CSS CDN (works fine on GitHub Pages/Netlify). If you later self-host, you can compile Tailwind. -->
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    /* Smooth scroll */
     html { scroll-behavior: smooth; }
   </style>
   <!-- JSON-LD Organization schema: update URL, sameAs, address if available -->
@@ -42,89 +41,58 @@
 </head>
 <body class="bg-white text-slate-800">
   <!-- Header -->
-<header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between h-16">
-      <a href="#" class="flex items-center gap-2 font-semibold text-slate-900">
-        <img src="sv-logo.png" alt="SV Industries Logo" class="h-10 w-auto" style="max-width:220px;">
-      </a>
-      <nav class="hidden md:flex items-center gap-6 text-sm">
-        <a href="#services" class="hover:text-blue-600">Services</a>
-        <a href="#why" class="hover:text-blue-600">Why Us</a>
-        <a href="#process" class="hover:text-blue-600">Process</a>
-        <a href="#contact" class="hover:text-blue-600">Contact</a>
-      </nav>
-      <div class="md:hidden">
-        <button id="menuBtn" class="p-2 rounded-lg border border-slate-300" aria-label="Open menu">
-          <!-- hamburger -->
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
-        </button>
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="#" class="flex items-center gap-2 font-semibold text-slate-900">
+          <img src="sv-logo.png" alt="SV Industries Logo" class="h-10 w-auto" style="max-width:220px;">
+        </a>
+        <nav class="hidden md:flex items-center gap-6 text-sm">
+          <a href="#services" class="hover:text-blue-600">Services</a>
+          <a href="#why" class="hover:text-blue-600">Why Us</a>
+          <a href="#process" class="hover:text-blue-600">Process</a>
+          <a href="#contact" class="hover:text-blue-600">Contact</a>
+        </nav>
+        <div class="md:hidden">
+          <button id="menuBtn" class="p-2 rounded-lg border border-slate-300" aria-label="Open menu">
+            <!-- hamburger -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </div>
+        <a href="#contact" class="hidden md:inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-blue-600 text-white shadow-sm hover:bg-blue-700">
+          Get a quote
+        </a>
       </div>
-      <a href="#contact" class="hidden md:inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-blue-600 text-white shadow-sm hover:bg-blue-700">
-        Get a quote
-      </a>
+      <div id="mobileMenu" class="md:hidden hidden border-t border-slate-200 py-2">
+        <a href="#services" class="block px-2 py-2 hover:bg-slate-50 rounded">Services</a>
+        <a href="#why" class="block px-2 py-2 hover:bg-slate-50 rounded">Why Us</a>
+        <a href="#process" class="block px-2 py-2 hover:bg-slate-50 rounded">Process</a>
+        <a href="#contact" class="block px-2 py-2 hover:bg-slate-50 rounded">Contact</a>
+      </div>
     </div>
-    <div id="mobileMenu" class="md:hidden hidden border-t border-slate-200 py-2">
-      <a href="#services" class="block px-2 py-2 hover:bg-slate-50 rounded">Services</a>
-      <a href="#why" class="block px-2 py-2 hover:bg-slate-50 rounded">Why Us</a>
-      <a href="#process" class="block px-2 py-2 hover:bg-slate-50 rounded">Process</a>
-      <a href="#contact" class="block px-2 py-2 hover:bg-slate-50 rounded">Contact</a>
-    </div>
-  </div>
-</header>
+  </header>
 
-  <!-- Hero -->
-  <!-- ... above unchanged ... -->
-<section class="relative overflow-hidden">
-  <div class="absolute inset-0 bg-gradient-to-br from-blue-50 to-indigo-50 -z-10"></div>
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
-    <div class="grid lg:grid-cols-2 gap-12 items-center">
-      <div>
-        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-slate-900">
-          Finishing & Coating Solutions for <span class="text-blue-600">Wood, Glass, Ceramic & Metal</span>
-        </h1>
-        <p class="mt-5 text-lg text-slate-700">
-          We deliver innovative, automation‑ready coatings and end‑to‑end finishing solutions powered by state‑of‑the‑art paint spraying systems. One‑point, hassle‑free service from consultation to final inspection
-        </p>
-        <div class="mt-8 flex flex-wrap gap-3">
-          <a href="#contact" class="inline-flex items-center px-5 py-3 rounded-xl bg-blue-600 text-white hover:bg-blue-700 shadow-sm">Talk to an expert</a>
-          <a href="#services" class="inline-flex items-center px-5 py-3 rounded-xl border border-slate-300 hover:bg-slate-50">Explore services</a>
-        </div>
-        <div class="mt-6 text-sm text-slate-600">Owner & CEO: <strong>Ankush Deshetty</strong></div>
+  <!-- Hero (no SVG, message fills space) -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-blue-50 to-indigo-50 -z-10"></div>
+    <div class="flex flex-col items-center justify-center text-center py-16 lg:py-24">
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-slate-900 max-w-3xl">
+        Finishing & Coating Solutions for <span class="text-blue-600">Wood, Glass, Ceramic & Metal</span>
+      </h1>
+      <p class="mt-5 text-lg text-slate-700 max-w-2xl">
+        We deliver innovative, automation‑ready coatings and end‑to‑end finishing solutions powered by state‑of‑the‑art paint spraying systems. One‑point, hassle‑free service from consultation to final inspection.
+      </p>
+      <div class="mt-8 flex flex-wrap gap-3 justify-center">
+        <a href="#contact" class="inline-flex items-center px-5 py-3 rounded-xl bg-blue-600 text-white hover:bg-blue-700 shadow-sm">Talk to an expert</a>
+        <a href="#services" class="inline-flex items-center px-5 py-3 rounded-xl border border-slate-300 hover:bg-slate-50">Explore services</a>
       </div>
-      <div class="relative">
-        <div class="aspect-[4/3] rounded-2xl bg-gradient-to-tr from-slate-900 to-slate-700 shadow-2xl">
-          <!-- Decorative hero graphic -->
-          <svg viewBox="0 0 500 375" class="w-full h-full">
-            <defs>
-              <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0%" stop-color="#60a5fa"/>
-                <stop offset="100%" stop-color="#a78bfa"/>
-              </linearGradient>
-            </defs>
-            <rect x="24" y="24" width="452" height="327" rx="22" fill="url(#g1)" opacity="0.25" />
-            <g fill="none" stroke="#fff" opacity="0.5" stroke-width="2">
-              <path d="M60 300 C 100 200, 200 250, 260 170 S 420 110, 460 220"/>
-              <path d="M40 260 C 110 210, 210 180, 300 200 S 420 300, 470 260" opacity="0.6"/>
-              <path d="M70 210 C 140 170, 220 140, 320 150 S 420 200, 430 180" opacity="0.4"/>
-            </g>
-            <g fill="#fff" opacity="0.9">
-              <circle cx="120" cy="120" r="6"/>
-              <circle cx="260" cy="90" r="8"/>
-              <circle cx="380" cy="180" r="5"/>
-              <circle cx="200" cy="260" r="7"/>
-            </g>
-          </svg>
-        </div>
-        <div class="absolute -bottom-4 -right-4 bg-white/90 backdrop-blur rounded-xl shadow p-4 text-sm">
-          <div class="font-semibold">#One_Point_Solution</div>
-          <div class="text-slate-600">Consult → Automate → Apply → Inspect</div>
-        </div>
+      <div class="mt-6 text-sm text-slate-600">Owner & CEO: <strong>Ankush Deshetty</strong></div>
+      <div class="mt-8 p-4 rounded-xl bg-white/90 backdrop-blur shadow text-sm border">
+        <div class="font-semibold">#One_Point_Solution</div>
+        <div class="text-slate-600">Consult → Automate → Apply → Inspect</div>
       </div>
     </div>
-  </div>
-</section>
-<!-- ... below unchanged ... -->
+  </section>
 
   <!-- Services -->
   <section id="services" class="py-16 lg:py-24">
