@@ -29,31 +29,6 @@ SV Industries is a multi-disciplinary engineering company catering to diverse in
 
 ---
 
-## 🛠️ Tech Stack
-- HTML5
-- Tailwind CSS (CDN)
-- Vanilla JavaScript
-- Free form handling service (Formspree/Web3Forms)
-
----
-
-## 📂 Repository Structure
-
----
-
-## 📦 Deployment
-### GitHub Pages
-1. Push this repo to GitHub.
-2. Go to **Settings → Pages → Deploy from branch → main branch → root**.
-3. Your site will be live at `https://<username>.github.io/sv-industries-site/`.
-
-### Netlify (Recommended for forms)
-1. Log into [Netlify](https://www.netlify.com/).
-2. Click **New site → Import from GitHub**.
-3. Select this repository and deploy.
-4. Netlify provides a free `.netlify.app` domain (can connect custom domain).
-
----
 
 ## 📧 Contact
 - 📍 Address: Ground Floor, No. 257, Mysore Road, K H Ranganatha Colony, Bengaluru Urban, Karnataka – 560002  
