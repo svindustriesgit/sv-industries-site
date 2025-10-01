@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SV Industries — Finishing & Coating Solutions</title>
+  <meta name="description" content="SV Industries delivers innovative, automation-ready finishing & coating solutions for wood, glass, ceramic, and metal applications in India." />
+  <meta name="keywords" content="SV Industries, coatings, finishing, wood coating, glass coating, ceramic coating, metal coating, paint spraying machines, India" />
+  <meta property="og:title" content="SV Industries — Finishing & Coating Solutions" />
+  <meta property="og:description" content="Premier finishing solution provider for wood, glass, ceramic and metal with one-point, end‑to‑end service." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://your-domain.example" />
+  <meta property="og:image" content="https://your-domain.example/og-image.jpg" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%230089ff'/><text x='50' y='58' text-anchor='middle' font-size='54' fill='white' font-family='Arial, Helvetica, sans-serif'>SV</text></svg>">
+  <!-- Tailwind CSS CDN (works fine on GitHub Pages/Netlify). If you later self-host, you can compile Tailwind. -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Smooth scroll */
+    html { scroll-behavior: smooth; }
+  </style>
+  <!-- JSON-LD Organization schema: update URL, sameAs, address if available -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "SV Industries",
+    "url": "https://your-domain.example",
+    "logo": "https://your-domain.example/logo.png",
+    "email": "svindustriesbengaluru@outlook.com",
+    "telephone": "+91 7975867154",
+    "sameAs": []
+  }
+  </script>
+  <!-- Optional: Google Analytics 4 (replace G-XXXXXXX) -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-XXXXXXX');
+  </script>
+  -->
+</head>
+<body class="bg-white text-slate-800">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="#" class="flex items-center gap-2 font-semibold text-slate-900">
+          <span class="inline-flex items-center justify-center w-8 h-8 rounded-xl bg-blue-600 text-white">SV</span>
+          <span class="hidden sm:inline">SV Industries</span>
+        </a>
+        <nav class="hidden md:flex items-center gap-6 text-sm">
+          <a href="#services" class="hover:text-blue-600">Services</a>
+          <a href="#why" class="hover:text-blue-600">Why Us</a>
+          <a href="#process" class="hover:text-blue-600">Process</a>
+          <a href="#contact" class="hover:text-blue-600">Contact</a>
+        </nav>
+        <div class="md:hidden">
+          <button id="menuBtn" class="p-2 rounded-lg border border-slate-300" aria-label="Open menu">
+            <!-- hamburger -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </div>
+        <a href="#contact" class="hidden md:inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-blue-600 text-white shadow-sm hover:bg-blue-700">
+          Get a quote
+        </a>
+      </div>
+      <div id="mobileMenu" class="md:hidden hidden border-t border-slate-200 py-2">
+        <a href="#services" class="block px-2 py-2 hover:bg-slate-50 rounded">Services</a>
+        <a href="#why" class="block px-2 py-2 hover:bg-slate-50 rounded">Why Us</a>
+        <a href="#process" class="block px-2 py-2 hover:bg-slate-50 rounded">Process</a>
+        <a href="#contact" class="block px-2 py-2 hover:bg-slate-50 rounded">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-blue-50 to-indigo-50 -z-10"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-slate-900">Finishing & Coating Solutions for <span class="text-blue-600">Wood, Glass, Ceramic & Metal</span></h1>
+          <p class="mt-5 text-lg text-slate-700">We deliver innovative, automation‑ready coatings and end‑to‑end finishing solutions powered by state‑of‑the‑art paint spraying systems. One‑point, hassle‑free service from consultation to final inspection.</p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="#contact" class="inline-flex items-center px-5 py-3 rounded-xl bg-blue-600 text-white hover:bg-blue-700 shadow-sm">Talk to an expert</a>
+            <a href="#services" class="inline-flex items-center px-5 py-3 rounded-xl border border-slate-300 hover:bg-slate-50">Explore services</a>
+          </div>
+          <div class="mt-6 text-sm text-slate-600">Owner & CEO: <strong>Ankush Deshetty</strong></div>
+        </div>
+        <div class="relative">
+          <div class="aspect-[4/3] rounded-2xl bg-gradient-to-tr from-slate-900 to-slate-700 shadow-2xl">
+            <!-- Decorative hero graphic -->
+            <svg viewBox="0 0 500 375" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+              <defs>
+                <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#60a5fa"/>
+                  <stop offset="100%" stop-color="#a78bfa"/>
+                </linearGradient>
+              </defs>
+              <rect x="24" y="24" width="452" height="327" rx="22" fill="url(#g1)" opacity="0.25" />
+              <g fill="none" stroke="#fff" opacity="0.5" stroke-width="2">
+                <path d="M60 300 C 100 200, 200 250, 260 170 S 420 110, 460 220"/>
+                <path d="M40 260 C 110 210, 210 180, 300 200 S 420 300, 470 260" opacity="0.6"/>
+                <path d="M70 210 C 140 170, 220 140, 320 150 S 420 200, 430 180" opacity="0.4"/>
+              </g>
+              <g fill="#fff" opacity="0.9">
+                <circle cx="120" cy="120" r="6"/>
+                <circle cx="260" cy="90" r="8"/>
+                <circle cx="380" cy="180" r="5"/>
+                <circle cx="200" cy="260" r="7"/>
+              </g>
+            </svg>
+          </div>
+          <div class="absolute -bottom-4 -right-4 bg-white/90 backdrop-blur rounded-xl shadow p-4 text-sm">
+            <div class="font-semibold">#One_Point_Solution</div>
+            <div class="text-slate-600">Consult → Automate → Apply → Inspect</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-16 lg:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl">
+        <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">End‑to‑End Coating Services</h2>
+        <p class="mt-3 text-slate-700">Precision application, durable protection, and refined aesthetics across materials.</p>
+      </div>
+      <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Card -->
+        <article class="rounded-2xl border border-slate-200 p-6 hover:shadow-md transition">
+          <h3 class="text-lg font-semibold">Wood Coating</h3>
+          <p class="mt-2 text-sm text-slate-600">Automated finishes that fortify and enhance furniture, joinery, and architectural elements.</p>
+        </article>
+        <article class="rounded-2xl border border-slate-200 p-6 hover:shadow-md transition">
+          <h3 class="text-lg font-semibold">Glass Coating</h3>
+          <p class="mt-2 text-sm text-slate-600">Clarity and protection for architectural & automotive glass with innovation‑driven processes.</p>
+        </article>
+        <article class="rounded-2xl border border-slate-200 p-6 hover:shadow-md transition">
+          <h3 class="text-lg font-semibold">Ceramic Coating</h3>
+          <p class="mt-2 text-sm text-slate-600">Flawless, precise coverage for high‑performance ceramic applications.</p>
+        </article>
+        <article class="rounded-2xl border border-slate-200 p-6 hover:shadow-md transition">
+          <h3 class="text-lg font-semibold">Metal Coating</h3>
+          <p class="mt-2 text-sm text-slate-600">Corrosion resistance and long‑term durability for components & machinery.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us -->
+  <section id="why" class="py-16 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Why choose SV Industries?</h2>
+          <ul class="mt-6 space-y-3 text-slate-700">
+            <li class="flex gap-3"><span class="mt-1 inline-block w-2 h-2 rounded-full bg-blue-600"></span> <span>Innovation‑first mindset with automation‑ready application.</span></li>
+            <li class="flex gap-3"><span class="mt-1 inline-block w-2 h-2 rounded-full bg-blue-600"></span> <span>One‑point solution: consulting, application, QA, and after‑service.</span></li>
+            <li class="flex gap-3"><span class="mt-1 inline-block w-2 h-2 rounded-full bg-blue-600"></span> <span>Consistent quality, reduced wastage, and faster turnaround.</span></li>
+            <li class="flex gap-3"><span class="mt-1 inline-block w-2 h-2 rounded-full bg-blue-600"></span> <span>Industry coverage: furniture, construction, automotive, industrial.</span></li>
+          </ul>
+          <div class="mt-8">
+            <a href="#contact" class="inline-flex items-center px-5 py-3 rounded-xl bg-blue-600 text-white hover:bg-blue-700 shadow-sm">Get in touch</a>
+          </div>
+        </div>
+        <div class="rounded-2xl border border-slate-200 p-6 bg-white">
+          <h3 class="text-lg font-semibold">Core Capabilities</h3>
+          <div class="mt-4 grid sm:grid-cols-2 gap-4 text-sm">
+            <div class="p-4 rounded-xl bg-slate-50">Automated spray systems</div>
+            <div class="p-4 rounded-xl bg-slate-50">Material‑specific formulas</div>
+            <div class="p-4 rounded-xl bg-slate-50">On‑site & in‑house finishing</div>
+            <div class="p-4 rounded-xl bg-slate-50">Rigorous final inspection</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section id="process" class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">How we work</h2>
+      <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-5 gap-4 text-sm">
+        <div class="p-4 rounded-xl border border-slate-200"><div class="font-semibold">1) Consult</div><div class="mt-1 text-slate-600">Understand use‑case, substrate, finish & timelines.</div></div>
+        <div class="p-4 rounded-xl border border-slate-200"><div class="font-semibold">2) Demo</div><div class="mt-1 text-slate-600">Sample runs, finish selection, cost estimate.</div></div>
+        <div class="p-4 rounded-xl border border-slate-200"><div class="font-semibold">3) Proposal</div><div class="mt-1 text-slate-600">Scope, commercials, and delivery schedule.</div></div>
+        <div class="p-4 rounded-xl border border-slate-200"><div class="font-semibold">4) Implement</div><div class="mt-1 text-slate-600">Automated application & controlled curing.</div></div>
+        <div class="p-4 rounded-xl border border-slate-200"><div class="font-semibold">5) Inspect</div><div class="mt-1 text-slate-600">Quality checks and handover.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-12">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Contact us</h2>
+          <p class="mt-3 text-slate-700">Tell us about your project. We typically reply within one business day.</p>
+          <div class="mt-6 space-y-4 text-sm">
+            <div><span class="font-semibold">Email:</span> <a class="text-blue-700 hover:underline" href="mailto:svindustriesbengaluru@outlook.com">svindustriesbengaluru@outlook.com</a></div>
+            <div><span class="font-semibold">Phone:</span> <a class="text-blue-700 hover:underline" href="tel:+917975867154">+91 7975867154</a></div>
+            <div><span class="font-semibold">WhatsApp:</span> <a class="text-blue-700 hover:underline" href="https://wa.me/917975867154?text=Hello%20SV%20Industries%2C%20I%27m%20interested%20in%20your%20coating%20solutions." target="_blank" rel="noopener">Chat now</a></div>
+          </div>
+          <div class="mt-8 p-4 rounded-xl bg-white border border-slate-200 text-xs text-slate-600">
+            <p><strong>Privacy:</strong> We use your details only to respond to your enquiry. No spam. No sharing.</p>
+          </div>
+        </div>
+        <div>
+          <!-- Simple, provider-agnostic form. Replace action URL with your Formspree/Web3Forms endpoint. -->
+          <form id="leadForm" action="https://formspree.io/f/your-endpoint" method="POST" class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-sm font-medium">Full name *</label>
+                <input name="name" required type="text" class="mt-1 w-full rounded-xl border-slate-300 focus:border-blue-600 focus:ring-blue-600" placeholder="Your name"/>
+              </div>
+              <div>
+                <label class="block text-sm font-medium">Company</label>
+                <input name="company" type="text" class="mt-1 w-full rounded-xl border-slate-300 focus:border-blue-600 focus:ring-blue-600" placeholder="Company name"/>
+              </div>
+              <div>
+                <label class="block text-sm font-medium">Email *</label>
+                <input name="email" required type="email" class="mt-1 w-full rounded-xl border-slate-300 focus:border-blue-600 focus:ring-blue-600" placeholder="you@example.com"/>
+              </div>
+              <div>
+                <label class="block text-sm font-medium">Phone</label>
+                <input name="phone" type="tel" class="mt-1 w-full rounded-xl border-slate-300 focus:border-blue-600 focus:ring-blue-600" placeholder="+91…"/>
+              </div>
+              <div class="sm:col-span-2">
+                <label class="block text-sm font-medium">Service of interest</label>
+                <select name="service" class="mt-1 w-full rounded-xl border-slate-300 focus:border-blue-600 focus:ring-blue-600">
+                  <option>Wood Coating</option>
+                  <option>Glass Coating</option>
+                  <option>Ceramic Coating</option>
+                  <option>Metal Coating</option>
+                  <option>Other / Not sure</option>
+                </select>
+              </div>
+              <div class="sm:col-span-2">
+                <label class="block text-sm font-medium">Message *</label>
+                <textarea name="message" required rows="4" class="mt-1 w-full rounded-xl border-slate-300 focus:border-blue-600 focus:ring-blue-600" placeholder="Describe your requirement…"></textarea>
+              </div>
+              <input type="hidden" name="source" value="Website" />
+              <div class="sm:col-span-2 flex items-start gap-2">
+                <input id="consent" type="checkbox" required class="mt-1 rounded border-slate-300" />
+                <label for="consent" class="text-sm text-slate-600">I agree to be contacted about my enquiry.</label>
+              </div>
+            </div>
+            <button class="mt-6 w-full inline-flex justify-center items-center px-5 py-3 rounded-xl bg-blue-600 text-white hover:bg-blue-700">Send enquiry</button>
+            <p id="formMsg" class="mt-3 text-sm text-green-700 hidden">Thanks! Your message has been sent.</p>
+          </form>
+          <p class="mt-3 text-xs text-slate-500">Tip: To enable this form, create a free endpoint at <em>formspree.io</em> (or <em>web3forms.com</em>) and paste the URL into the <code>action</code> attribute above.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-600">
+        <div>&copy; <span id="year"></span> SV Industries. All rights reserved.</div>
+        <div class="flex items-center gap-4">
+          <a href="#services" class="hover:text-slate-900">Services</a>
+          <a href="#contact" class="hover:text-slate-900">Contact</a>
+          <a href="#" class="hover:text-slate-900" onclick="alert('Coming soon'); return false;">Case studies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const btn = document.getElementById('menuBtn');
+    const menu = document.getElementById('mobileMenu');
+    if (btn) btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+
+    // Current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Optional: AJAX submit (works when action is a Formspree/Web3Forms endpoint that allows CORS)
+    const form = document.getElementById('leadForm');
+    if (form) {
+      form.addEventListener('submit', async (e) => {
+        // Remove the next two lines if you prefer provider's default success page redirect
+        e.preventDefault();
+        const formMsg = document.getElementById('formMsg');
+        try {
+          const data = new FormData(form);
+          const res = await fetch(form.action, { method: 'POST', body: data });
+          if (res.ok) {
+            form.reset();
+            formMsg.classList.remove('hidden');
+          } else {
+            alert('There was an issue sending your message. Please email us directly.');
+          }
+        } catch (err) {
+          alert('Network error. Please try again or email us at svindustriesbengaluru@outlook.com');
+        }
+      });
+    }
+  </script>
+</body>
+</html>
