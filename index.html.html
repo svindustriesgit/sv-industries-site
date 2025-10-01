@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SV Industries | Engineering & Industrial Coating Solutions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="SV Industries - Engineering & Industrial Coating Solutions based in Bengaluru, India. Precision, automation, and high-performance finishing technologies.">
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f8f9fa;
+            color: #222;
+            margin: 0;
+        }
+        header {
+            background: #1e375a;
+            color: #fff;
+            padding: 28px 0 24px 0;
+            text-align: center;
+        }
+        nav {
+            background: #27416b;
+            padding: 14px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 16px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.06em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 960px;
+            margin: 36px auto;
+            padding: 0 18px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 18px rgba(0,0,0,0.07);
+        }
+        h1, h2 {
+            color: #1e375a;
+        }
+        section {
+            margin-bottom: 38px;
+        }
+        .products-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 28px;
+        }
+        .product-card {
+            flex: 1 1 220px;
+            background: #e9eef3;
+            border-radius: 6px;
+            padding: 18px;
+            min-width: 220px;
+            box-shadow: 0 1px 9px rgba(30,55,90,0.08);
+        }
+        .product-card h3 {
+            margin-top: 0;
+            color: #27416b;
+        }
+        .contact-info, .social {
+            background: #e9eef3;
+            border-radius: 6px;
+            padding: 14px;
+            margin-bottom: 18px;
+        }
+        footer {
+            background: #1e375a;
+            color: #fff;
+            text-align: center;
+            padding: 18px 0;
+            margin-top: 36px;
+        }
+        .icon {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+            margin-right: 4px;
+        }
+        @media (max-width: 700px) {
+            .products-list {
+                flex-direction: column;
+            }
+            .container {
+                margin: 18px auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SV Industries</h1>
+        <p>Engineering & Industrial Coating Solutions</p>
+        <p>Bengaluru, India</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products & Solutions</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to SV Industries</h2>
+            <p>
+                SV Industries is a multi-disciplinary engineering company specializing in advanced coating applications and industrial systems. 
+                We offer innovative solutions for wood, glass, ceramic, metal, plastic, and leather coatings, utilizing automated spray systems and state-of-the-art technology.
+            </p>
+            <ul>
+                <li>Precision and automation for high-performance finishing</li>
+                <li>Custom solutions for diverse industries</li>
+                <li>Commitment to quality, efficiency, and sustainability</li>
+            </ul>
+        </section>
+        <section id="products">
+            <h2>Products & Solutions</h2>
+            <div class="products-list">
+                <div class="product-card">
+                    <h3>Spray Master Pro Series</h3>
+                    <p>Advanced automated spray systems for consistent and efficient coating across wood, metal, glass, and more.</p>
+                </div>
+                <div class="product-card">
+                    <h3>Dry & Wet Spray Booths</h3>
+                    <p>Custom-designed booths for optimal air flow, safety, and clean finishing environments.</p>
+                </div>
+                <div class="product-card">
+                    <h3>Dust Collection Systems</h3>
+                    <p>High-performance dust extraction solutions to maintain workplace cleanliness and compliance.</p>
+                </div>
+                <div class="product-card">
+                    <h3>HVAC Solutions</h3>
+                    <p>Specialized heating, ventilation, and air conditioning for industrial coating environments.</p>
+                </div>
+                <div class="product-card">
+                    <h3>Material Handling Systems</h3>
+                    <p>Efficient conveyors and trolleys to streamline operations and improve productivity.</p>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>
+                Based in Bengaluru, India, SV Industries brings together expertise in engineering, automation, and industrial coatings.
+                Our team customizes solutions for each client, ensuring superior quality and performance. 
+                We focus on sustainability and innovation, helping businesses achieve their finishing goals with confidence.
+            </p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p><strong>Phone:</strong> +91 7975867154</p>
+                <p><strong>Email:</strong> <a href="mailto:svindustriesbengaluru@outlook.com">svindustriesbengaluru@outlook.com</a></p>
+                <p><strong>Address:</strong> Ground Floor, No. 257, Mysore Road, K H Ranganatha Colony, Bengaluru Urban, Karnataka, 560002</p>
+            </div>
+            <div class="social">
+                <p><strong>Skype:</strong> SV Industries</p>
+            </div>
+            <form method="POST" action="mailto:svindustriesbengaluru@outlook.com" enctype="text/plain">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <button type="submit" style="background:#27416b;color:#fff;padding:8px 18px;border:none;border-radius:4px;font-size:1em;">Send Message</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        &copy; 2025 SV Industries. All rights reserved.
+    </footer>
+</body>
+</html>
